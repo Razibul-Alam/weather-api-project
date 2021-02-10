@@ -1,0 +1,24 @@
+.newDiv{
+    background-color: chocolate;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+#maindiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   grid-gap: 10px;
+   margin-top: 100px;
+}
+
+.inputDiv{
+margin: auto;
+margin-top: 50px;
+width: 500px;
+
+}
